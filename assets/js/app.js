@@ -1,0 +1,1 @@
+function showNav(){console.log("toggle");var a=document.getElementById("main-nav");"main-nav"===a.className?a.className+=" unfold":a.className="main-nav"}window.sr=ScrollReveal(),$(window).scroll(function(){100<$(window).scrollTop()?$(".floating-nav").addClass("show"):$(".floating-nav").removeClass("show")});

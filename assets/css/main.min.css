@@ -250,18 +250,18 @@ input[type="button"] {
     transform: translateY(3px); }
 
 a {
-  color: #0074D9;
+  color: #ba0600;
   text-decoration: none;
   outline: 0;
   font-family: 'Lato', sans-serif; }
   a:hover, a:focus {
-    color: #F012BE; }
+    color: #870004; }
 
 ::selection {
-  background: #FFF498; }
+  background: transparent; }
 
 ::-moz-selection {
-  background: #FFF498; }
+  background: transparent; }
 
 img::selection {
   background: transparent; }
@@ -270,7 +270,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #FFF498; }
+  -webkit-tap-highlight-color: transparent; }
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
@@ -347,9 +347,6 @@ hr {
 h2 {
   font-weight: 300;
   text-transform: uppercase; }
-
-a {
-  color: #ba0600; }
 
 nav ul {
   padding: 0;
@@ -563,7 +560,14 @@ nav li {
     #comp-hero {
       height: 300px; } }
 
-#comp-about {
+#comp-about h3 {
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+#comp-about h4 {
+  margin-top: 0px; }
+
+#comp-about p.info {
   margin: 0px; }
 
 #intro {
